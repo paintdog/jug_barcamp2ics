@@ -12,6 +12,16 @@ You can install them via pip:
 pip install beautifulsoup4 requests
 ```
 
+## Note
+
+In the main.py script, the date for the next event must be set manually. Open the file and update the date variable to the desired date before running the script.
+
+Example:
+```python
+URL = "https://entwickelbar.github.io/"
+date = datetime.date(2025, 9, 13)
+```
+
 ## Disclaimer
 
 This project is independent and has no affiliation with the event or the user group.
