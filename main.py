@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-__version__ = 0.0.2
+__version__ = "0.0.3"
 
 
 URL = "https://entwickelbar.github.io/"
